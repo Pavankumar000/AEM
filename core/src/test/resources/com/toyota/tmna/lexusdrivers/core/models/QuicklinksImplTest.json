@@ -1,0 +1,17 @@
+{
+	"title": "QUICK LINKS",
+	"header": "header",
+	"quickLinks": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"iconlabel": "iconlabel",
+			"iconpath": "iconpath"
+		}
+	},
+	":type": "lexusdrivers/components/content/quicklinks",
+	"signInUrl": "signinurl",
+	"signInButtonText": "signInButtonText",
+	"createAccountUrl": "createAccountUrl",
+	"createAccountButtonText": "CreateAccountButtonText"
+}

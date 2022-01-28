@@ -1,0 +1,7 @@
+{
+	"title": "title",
+	"id": "video source",
+	":type": "lexusdrivers/components/content/videoplayer",
+	"video_type": "youtube",
+	"video_title": "video title"
+}

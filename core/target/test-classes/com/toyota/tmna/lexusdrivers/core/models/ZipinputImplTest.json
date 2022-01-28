@@ -1,0 +1,11 @@
+{
+	"zipInputLabel": "zipInputLabel",
+	"zipCodeValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "rule exp"
+		}
+	},
+	":type": "lexusdrivers/components/content/zipinput"
+}

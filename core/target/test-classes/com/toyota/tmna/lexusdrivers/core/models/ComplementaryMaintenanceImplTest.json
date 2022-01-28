@@ -1,0 +1,12 @@
+{
+  "scheduleServiceLink": "/content/lexusdrivers/us/en/lexusdrivers/herobanner1",
+  "scheduleServiceLabel": "SCHEDULE SERVICE",
+  "noServiceDataMessage": "This content is currently unavailable. Please check back later.",
+  "sixMonthsLabel": "5000",
+  "twelveMonthLabel": "10000",
+  "unitsForMonth": "MONTHS",
+  "unitsForMiles": "MILES",
+  "minUsageMonths": "6",
+  "maxUsageMonths": "12",
+  ":type": "lexusdrivers/components/content/cstilecomponent"
+}

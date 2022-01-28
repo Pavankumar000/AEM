@@ -1,0 +1,19 @@
+{
+  "videoSource": "/content/dam/lexusdrivers/media/Home/Default/Hero/2019/Videos/LDNG-Logged-out-HP-Video_TOM_051619.mp4",
+  "videoSourceAlt": "Hero Video Alt",
+  "imageSource": "Image Source",
+  "imageSourceAlt": "Image Source Alt",
+  "id": "Desktop Image Alt",
+  "desktopImage": "Desktop Image",
+  "desktopImageAlt": "Desktop Image Alt",
+  "mobileImage": "Mobile Image",
+  "mobileImageAlt": "Mobile Image Alt",
+  "tabletImage": "Tablet Image",
+  "tabletImageAlt": "Tablet Image Alt",
+  "legalCopy": "Legal Copy",
+  "nickNameText": "Nick Name Text",
+  "viewSpecsLink": "View Specs Link",
+  "viewSpecsText": "View Specs Text",
+  "vINText": "VIN Text",
+  ":type": "lexusdrivers/components/content/herovideobanner"
+}

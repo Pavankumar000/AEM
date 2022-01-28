@@ -1,0 +1,21 @@
+{
+  "title": "Title-PRODUCT PANEL",
+  "description": "Description",
+  "icon": "/content/dam/lexusdrivers/media/global-safety-connect-icon-55x55.png",
+  "type": "ProductPanel",
+  "alignment": "center",
+  "ctaLink": "/content/lexusdrivers/language-masters",
+  "ctatext": "Learn More",
+  "hasDividerLine": "true",
+    "image": "IMAGE",
+  "video": "VIDO",
+  "extrapadding": "true",
+  "header": "header",
+  "imagealt": "IMAGE ALT",
+  ":type": "lexusdrivers/components/content/copypanel",
+  "joinDesc": "joinDesc",
+  "ctatype": "ctatype",
+  "richTextTitle": "richTextTitle",
+  "showTitleasLink" : "false",
+  "showHeaderasLink" : "false"
+}

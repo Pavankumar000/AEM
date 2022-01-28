@@ -1,0 +1,931 @@
+{
+	"jcr:primaryType": "cq:Template",
+	"jcr:createdBy": "admin",
+	"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+	"initial": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:createdBy": "admin",
+			"cq:template": "/conf/lexusdrivers/settings/wcm/templates/content-template",
+			"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+			"sling:resourceType": "lexusdrivers/components/structure/spa-page",
+			"root": {
+				"jcr:primaryType": "nt:unstructured",
+				"sling:resourceType": "wcm/foundation/components/responsivegrid",
+				"responsivegrid": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:lastModifiedBy": "admin",
+					"jcr:lastModified": "Wed Nov 18 2020 18:52:56 GMT+0530",
+					"sling:resourceType": "wcm/foundation/components/responsivegrid",
+					"ldwrapper": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:createdBy": "admin",
+						"jcr:lastModifiedBy": "admin",
+						"jcr:created": "Mon Nov 16 2020 17:44:57 GMT+0530",
+						"jcr:lastModified": "Mon Nov 16 2020 17:45:06 GMT+0530",
+						"sling:resourceType": "lexusdrivers/components/structure/LdWrapper",
+						"wrapper": {
+							"jcr:primaryType": "nt:unstructured",
+							"type": "auth"
+						}
+					},
+					"ldwrapper_1219496548": {
+						"jcr:primaryType": "nt:unstructured",
+						"jcr:createdBy": "admin",
+						"jcr:lastModifiedBy": "admin",
+						"jcr:created": "Mon Nov 16 2020 17:45:11 GMT+0530",
+						"jcr:lastModified": "Mon Nov 16 2020 17:45:29 GMT+0530",
+						"sling:resourceType": "lexusdrivers/components/structure/LdWrapper",
+						"wrapper": {
+							"jcr:primaryType": "nt:unstructured",
+							"type": "unauth"
+						}
+					}
+				}
+			}
+		}
+	},
+	"jcr:content": {
+		"jcr:primaryType": "cq:PageContent",
+		"jcr:createdBy": "admin",
+		"jcr:title": "LD - Content Template",
+		"cq:lastReplicationAction": "Activate",
+		"cq:lastReplicatedBy": "admin",
+		"status": "enabled",
+		"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+		"cq:lastReplicated": "Wed Nov 18 2020 18:53:01 GMT+0530",
+		"cq:lastModified": "Wed Nov 18 2020 18:51:45 GMT+0530",
+		"cq:templateType": "/conf/lexusdrivers/settings/wcm/template-types/content-page",
+		"cq:lastModifiedBy": "admin"
+	},
+	"structure": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+		"jcr:content": {
+			"jcr:primaryType": "cq:PageContent",
+			"jcr:mixinTypes": [
+				"mix:versionable"
+			],
+			"jcr:createdBy": "admin",
+			"cq:lastReplicationAction": "Activate",
+			"jcr:versionHistory": "0d06e57b-3352-4b15-963f-cb7d6f3a69ae",
+			"cq:template": "/conf/lexusdrivers/settings/wcm/templates/content-template",
+			"cq:lastReplicatedBy": "admin",
+			"jcr:predecessors": [
+				"ff907a09-d6b0-4aff-b4ab-5f6eb2c3fc10"
+			],
+			"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+			"cq:lastReplicated": "Wed Nov 18 2020 18:50:51 GMT+0530",
+			"cq:lastModified": "Wed Nov 18 2020 18:47:44 GMT+0530",
+			"jcr:baseVersion": "ff907a09-d6b0-4aff-b4ab-5f6eb2c3fc10",
+			"jcr:isCheckedOut": true,
+			"cq:deviceGroups": [
+				"/etc/mobile/groups/responsive"
+			],
+			"jcr:uuid": "67d8ef8c-092e-415e-a1e6-b0c8800c2f43",
+			"sling:resourceType": "lexusdrivers/components/structure/spa-page",
+			"cq:lastModifiedBy": "admin",
+			"root": {
+				"jcr:primaryType": "nt:unstructured",
+				"sling:resourceType": "wcm/foundation/components/responsivegrid",
+				"authcontainer": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:createdBy": "admin",
+					"jcr:lastModifiedBy": "admin",
+					"jcr:created": "Wed Oct 07 2020 17:07:41 GMT+0530",
+					"jcr:lastModified": "Wed Oct 07 2020 17:07:41 GMT+0530",
+					"sling:resourceType": "lexusdrivers/components/content/authcontainer"
+				},
+				"globalnav": {
+					"jcr:primaryType": "nt:unstructured",
+					"vINLabel": "VIN:",
+					"jcr:createdBy": "admin",
+					"buttonLabel": "SUBMIT",
+					"bottomText": "Add this vehicle to your account by <a href=\"/lexusdrivers/account/login.login.html\" target=\\\"_self\\\">SIGNING IN</a> or <a href=\"/lexusdrivers/account/register\">CREATING AN ACCOUNT</a>.",
+					"vehicleSelectText": "SELECT A MODEL",
+					"videoslide": "false",
+					"logoimage": "/content/dam/lexusdrivers/media/icons/global_nav/LD-Logo-2X-01.png",
+					"jcr:lastModifiedBy": "admin",
+					"manageGarageLinkType": "external",
+					"quicknavLabel": "Quick Links",
+					"carousellinktype": "external",
+					"jcr:created": "Fri Apr 24 2020 10:51:30 GMT+0530",
+					"body": "<ul>\r\n<li><a class=\"rich-text-anchor\" href=\"/lexusdrivers/VehicleHealthReportLandingPage\" target=\"_self\">Vehicle Health Reports</a></li>\r\n<li><a class=\"rich-text-anchor\" href=\"/lexusdrivers/history\" target=\"_self\">Service History</a></li>\r\n<li><a class=\"rich-text-anchor\" href=\"/lexusdrivers/service/maintenance-schedules\" target=\"_self\">Maintenance Schedule</a></li>\r\n<li><a class=\"rich-text-anchor\" href=\"/lexusdrivers/resources\" target=\"_self\">Vehicle Specs, Maintenance and Warranty Information</a></li>\r\n</ul>\r\n<p> </p>\r\n",
+					"name": "Select Vehicle",
+					"vehicleYearSelector": "SELECT A YEAR",
+					"clearFormLabel": "clear",
+					"benefitsTitle": "CREATE YOUR ACCOUNT TODAY FOR ACCESS TO THESE SERVICES AND MORE",
+					"sectionLabel": "Select A Vehicle",
+					"jcr:lastModified": "Fri Oct 16 2020 12:29:25 GMT+0530",
+					"manageGarageValue": "Manage Value",
+					"searchUrlPath": "/lexusdrivers/search?searchKey=",
+					"sling:resourceType": "lexusdrivers/components/content/globalNav",
+					"manageGarageIcon": "/content/dam/lexusdrivers/media/icons/global_nav/Icons/IconCheckSelector.svg",
+					"manageGarageLink": "/lexusdrivers/vehicleSettings",
+					"manageGarageName": "MY GARAGE",
+					"manageGarageText": "Manage Garage",
+					"textIsRich": [
+						"true"
+					],
+					"quickLabel": "View All Resouces",
+					"quickvalue": "<link linktype=\\\"external\\\" url=\\\"/lexusdrivers/resources\\\" anchor=\\\"\\\" target=\\\"\\\" />",
+					"placeholdertext": "SEARCH...",
+					"sectionDescription": "Make a selection for a more customized experience.",
+					"quicklinkURL": "/lexusdrivers/resources",
+					"selectcarouselTitle": "CREATE YOUR LEXUS DRIVERS ACCOUNT",
+					"tiles": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"videoslide": "false"
+						}
+					},
+					"quicklinks": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/resources/owners-manuals?type=om",
+							"navLabel": "OWNERS MANUAL"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/resources/owners-manuals?type=omms",
+							"navLabel": "VEHICLE WARRANTY & SERVICES"
+						},
+						"item2": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/service/warranty",
+							"navLabel": "LEXUS WARRANTY INFORMATION"
+						},
+						"item3": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/resources/owners-manuals?type=omnav",
+							"navLabel": "NAVIGATION & MULTIMEDIA SYSTEMS"
+						},
+						"item4": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/service/maintenance-schedules",
+							"navLabel": "Maintenance Schedule"
+						},
+						"item5": {
+							"jcr:primaryType": "nt:unstructured",
+							"linktype": "external",
+							"navLink": "/lexusdrivers/lexusenform",
+							"navLabel": "LEXUS ENFORM"
+						}
+					},
+					"manageGarage": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"findDealerLabel": "FIND A DEALER"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"description": "Check back soon and we should have it all",
+							"title": "WE ARE SORRY .THERE SEEMS TO HAVE BEEN AN ERROR"
+						}
+					},
+					"navigationLinks": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"videoslide": "false",
+							"name": "Service",
+							"label": "Service by Lexus",
+							"linktype": "external",
+							"thumbnail": "/content/dam/lexusdrivers/media/Global-Nav/Side/2020/LexusDrivers-GlobalNav-Service-ServiceConnect-750x460-190724-Lexus-3481_M85.jpg",
+							"linkoutUrl": "/lexusdrivers/technology/enform/service-connect",
+							"carouselTitle": "Explore Service Connect",
+							"children": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/service",
+									"name": "Vehicle Information",
+									"linkType": "external",
+									"navlabel": "SERVICE INFORMATION",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/VehicleHealthReportLandingPage",
+											"linktype": "external",
+											"navLabel": "VEHICLE HEALTH REPORT"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/history",
+											"linktype": "external",
+											"navLabel": "SERVICE HISTORY"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/service/maintenance-schedules",
+											"linktype": "external",
+											"navLabel": "MAINTENANCE SCHEDULE"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/service/safety-recalls",
+											"linktype": "external",
+											"navLabel": "SAFETY RECALLS & SERVICE CAMPAIGNS"
+										}
+									}
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/service/dealers",
+									"name": "DEALER SERVICES",
+									"linkType": "external",
+									"navlabel": "DEALER SERVICES",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/service/dealers",
+											"linktype": "external",
+											"navLabel": "FIND A LEXUS SERVICE CENTER"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/service/warranty",
+											"linktype": "external",
+											"navLabel": "LEXUS WARRANTY INFORMATION"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "https://parts.lexus.com/accessories/Lexus.html",
+											"linktype": "external",
+											"navIcon": "/content/dam/lexusdrivers/media/Public/01_Navigation/Assets/Icon-LinkOut.svg",
+											"navLabel": "ACCESSORIES"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/service/guest-experience",
+											"linktype": "external",
+											"navLabel": "Guest Experience"
+										},
+										"item4": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "https://www.lexusccc.com",
+											"linktype": "external",
+											"navIcon": "/content/dam/lexusdrivers/media/Public/01_Navigation/Assets/Icon-LinkOut.svg",
+											"navLabel": "CERTIFIED COLLISION CENTER"
+										}
+									}
+								}
+							}
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"videoslide": "false",
+							"name": "Resources",
+							"label": "Resources",
+							"linktype": "external",
+							"thumbnail": "/content/dam/lexusdrivers/media/Global-Nav/Side/2020/LexusDrivers-GlobalNav-Resources-ManualsWarranty-750x460-190723-Lexus-1884_M85.jpg",
+							"linkoutUrl": "/lexusdrivers/resources/manuals-warranty",
+							"carouselTitle": "Manuals and Warranty",
+							"children": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/resources",
+									"name": "Vehicle Resources",
+									"linkType": "external",
+									"navlabel": "Vehicle Resources",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/resources/manuals-warranty",
+											"linktype": "external",
+											"navLabel": "MANUALS & GUIDES"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "https://www.lexusfinancial.com/us/en.html",
+											"linktype": "external",
+											"navLabel": "LEXUS FINANCIAL SERVICES"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/resources/vehicle-specs",
+											"linktype": "external",
+											"navLabel": "VEHICLE SPECIFICATIONS"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/warning-lights",
+											"linktype": "external",
+											"navLabel": "Warning Lights"
+										},
+										"item4": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/resources/manuals-warranty#lexuspersonalizedsettings",
+											"linktype": "external",
+											"navLabel": "Personalized Settings"
+										},
+										"item5": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "https://lexus2.custhelp.com/",
+											"linktype": "external",
+											"navIcon": "/content/dam/lexusdrivers/media/Public/01_Navigation/Assets/Icon-LinkOut.svg",
+											"navLabel": "FAQ"
+										}
+									}
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/videos",
+									"name": "Videos",
+									"linkType": "external",
+									"navlabel": "VIDEOS",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/videos/how-to",
+											"linktype": "external",
+											"navLabel": "HOW-TO"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/videos/owner-benefits",
+											"linktype": "external",
+											"navLabel": "OWNER BENEFITS"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/videos/how-it-works",
+											"linktype": "external",
+											"navLabel": "HOW IT WORKS"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/videos/reveals",
+											"linktype": "external",
+											"navLabel": "REVEALS"
+										},
+										"item4": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/videos/walkarounds",
+											"linktype": "external",
+											"navLabel": "WALKAROUNDS"
+										}
+									}
+								}
+							}
+						},
+						"item2": {
+							"jcr:primaryType": "nt:unstructured",
+							"videoslide": "false",
+							"name": "Technology",
+							"label": "Technology",
+							"linktype": "external",
+							"thumbnail": "/content/dam/lexusdrivers/media/Global-Nav/Side/2019/LexusDrivers-GlobalNav-Technology-Enform-750x460-LEX-MIS-CY19-0060_M85.jpg",
+							"linkoutUrl": "/lexusdrivers/lexusenform",
+							"carouselTitle": "LEARN MORE ABOUT LEXUS ENFORM",
+							"children": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/technology",
+									"name": "Connected Technology",
+									"linkType": "external",
+									"navlabel": "CONNECTED TECHNOLOGY",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/lexusenform",
+											"linktype": "external",
+											"navLabel": "LEXUS ENFORM"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/technology/lexusapp",
+											"linktype": "external",
+											"navLabel": "LEXUS APP"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/technology/in-dash-technology",
+											"linktype": "external",
+											"navLabel": "IN-DASH TECHNOLOGY"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "https://securedp.lexus.com/download-app/downloads",
+											"linktype": "external",
+											"navIcon": "/content/dam/lexusdrivers/media/Public/01_Navigation/Assets/Icon-LinkOut.svg",
+											"navLabel": "MULTIMEDIA SYSTEM UPDATES"
+										}
+									}
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/technology/lexus-technology-specialists",
+									"name": "Safety and Specialists",
+									"linkType": "external",
+									"navlabel": "SAFETY & SPECIALISTS",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/technology/lexus-technology-specialists",
+											"linktype": "external",
+											"navLabel": "LEXUS TECHNOLOGY SPECIALISTS"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/technology/safety",
+											"linktype": "external",
+											"navLabel": "LEXUS SAFETY SYSTEM+"
+										}
+									}
+								}
+							}
+						},
+						"item3": {
+							"jcr:primaryType": "nt:unstructured",
+							"videoslide": "false",
+							"name": "Benefits",
+							"label": "BENEFITS",
+							"linktype": "external",
+							"thumbnail": "/content/dam/lexusdrivers/media/Global-Nav/Side/2019/LexusDrivers-GlobalNav-Benefits-LexusCollection-750x460-LEX-MIS-CY18-0076_M85.jpg",
+							"linkoutUrl": "/lexusdrivers/benefits/rewards-and-events/rewards-details/ART2138",
+							"carouselTitle": "THE LEXUS COLLECTION: AN EXCLUSIVE DISCOUNT",
+							"children": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/rewards-and-events/",
+									"name": "Rewards and Events",
+									"linkType": "external",
+									"navlabel": "REWARDS & EVENTS",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/entertainment",
+											"linktype": "external",
+											"navLabel": "ENTERTAINMENT"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/retailers",
+											"linktype": "external",
+											"navLabel": "RETAILERS"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/hotels",
+											"linktype": "external",
+											"navLabel": "HOTELS"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/culinary",
+											"linktype": "external",
+											"navLabel": "CULINARY"
+										},
+										"item4": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/wineries",
+											"linktype": "external",
+											"navLabel": "Wineries"
+										},
+										"item5": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/sports",
+											"linktype": "external",
+											"navLabel": "Sports"
+										},
+										"item6": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/rewards-and-events/events",
+											"linktype": "external",
+											"navLabel": "EVENTS"
+										}
+									}
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"url": "/lexusdrivers/experiences/All Stories",
+									"name": "Stories",
+									"linkType": "external",
+									"navlabel": "STORIES",
+									"children": {
+										"jcr:primaryType": "nt:unstructured",
+										"item0": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/Inside%20Lexus",
+											"linktype": "external",
+											"navLabel": "INSIDE LEXUS"
+										},
+										"item1": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/New%20Models",
+											"linktype": "external",
+											"navLabel": "NEW MODELS"
+										},
+										"item2": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/Auto%20Shows",
+											"linktype": "external",
+											"navLabel": "AUTO SHOWS"
+										},
+										"item3": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/Travel",
+											"linktype": "external",
+											"navLabel": "TRAVEL"
+										},
+										"item4": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/Food%20-%20Wine",
+											"linktype": "external",
+											"navLabel": "FOOD & WINE"
+										},
+										"item5": {
+											"jcr:primaryType": "nt:unstructured",
+											"url": "/lexusdrivers/experiences/Sports%20-%20Leisure",
+											"linktype": "external",
+											"navLabel": "SPORTS & LEISURE"
+										}
+									}
+								}
+							}
+						}
+					},
+					"navigationMessages": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"buttonLabel": "Find a Dealer",
+							"successPageUrl": "https://drivers.lexus.com/lexusdrivers/service/dealers",
+							"errMsgTitle": "Our Apologies. We're unable to retrieve your vehicle(s) at this time.",
+							"errMsgBody": "Please check back soon. If you need further assistance, please contact your dealer or call 1-800-255-3987.",
+							"errMsgName": "Navigation Error"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"buttonLabel": "Find A Dealer",
+							"successPageUrl": "https://drivers.lexus.com/lexusdrivers/service/dealers",
+							"errMsgTitle": "There are no vehicles in your garage",
+							"errMsgBody": "Add a Vehicle for easy access to your Manuals &amp; Warranties, Scheduling Service and Service History.",
+							"errMsgName": "No Vehicle Error"
+						}
+					},
+					"loggedOut": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"ctaLabel": "SIGN IN ",
+							"ctaLink": "/lexusdrivers/account/login.login.html",
+							"ctaType": "external"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"ctaLabel": "Create account",
+							"ctaLink": "/lexusdrivers/account/register",
+							"ctaType": "external"
+						}
+					},
+					"loggedIn": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"linkLabel": "Manage garage",
+							"deviceStyles": "ld-hidden-lg",
+							"enableExperience": "true",
+							"linkUrl": "/lexusdrivers/vehicleSettings"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"linkLabel": "manage preferences",
+							"enableExperience": "false",
+							"linkUrl": "/lexusdrivers/communications"
+						}
+					}
+				},				
+				"responsivegrid": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:lastModifiedBy": "admin",
+					"jcr:lastModified": "Wed Nov 18 2020 18:52:01 GMT+0530",
+					"sling:resourceType": "wcm/foundation/components/responsivegrid",
+					"editable": true
+				},
+				"globalfooter": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:createdBy": "admin",
+					"messagecheckbox": "true",
+					"headlinePath": "https://privacy.toyota.com/",
+					"copyopennewwindow": "true",
+					"jcr:lastModifiedBy": "admin",
+					"headline": "Do Not Sell My Personal Information",
+					"jcr:created": "Fri Apr 17 2020 16:19:30 GMT+0530",
+					"headPathOpennewwindow": "true",
+					"jcr:lastModified": "Thu Apr 30 2020 14:15:35 GMT+0530",
+					"copyRightDesc": "<p>� 2006-2020 Lexus, a Division of Toyota Motor Sales, U.S.A., Inc. All information contained herein applies to U.S. vehicles only.</p>\r\n",
+					"copyRightLink": "http://www.toyota.com/recall",
+					"copyRightText": "Safety Recalls & Service Campaigns",
+					"sling:resourceType": "lexusdrivers/components/content/globalfooter",
+					"textIsRich": "true",
+					"footercolumns": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"footerColumnHeadline": "ABOUT LEXUS",
+							"footerlinks": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "About",
+									"linktargeturl": "http://www.lexus.com/about",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "contact us",
+									"linktargeturl": "http://www.lexus.com/contact",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item2": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "lexus.com",
+									"linktargeturl": "http://www.lexus.com/",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item3": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Your Lexus Dealer",
+									"linktargeturl": "http://www.lexus.com/offers",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item4": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "privacy",
+									"linktargeturl": "http://www.lexus.com/privacy",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item5": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "legal",
+									"linktargeturl": "http://www.lexus.com/privacy/legal-terms",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								}
+							}
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"footerColumnHeadline": "Finance &amp; Leasing",
+							"footerlinks": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "End of Lease Options",
+									"linktargeturl": "https://www.lexusfinancial.com",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Lexus Financial Services",
+									"linktargeturl": "https://www.lexusfinancial.com",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item2": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Pay My Bill",
+									"linktargeturl": "https://www.lexusfinancial.com/us/en/planning_tools/ways_to_pay.html",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								}
+							}
+						},
+						"item2": {
+							"jcr:primaryType": "nt:unstructured",
+							"footerColumnHeadline": "Brand &amp; Lifestyle",
+							"footerlinks": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "See Lexus",
+									"linktargeturl": "https://see.lexus.com",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Lexus Merchandise",
+									"linktargeturl": "http://www.thelexuscollection.com",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item2": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "L/Certified",
+									"linktargeturl": "http://www.lexus.com/lcertified",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item3": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Lexus International",
+									"linktargeturl": "http://www.lexus-int.com/",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item4": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Lexus Plus",
+									"linktargeturl": "http://www.lexus.com/lexusplus",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								}
+							}
+						},
+						"item3": {
+							"jcr:primaryType": "nt:unstructured",
+							"footerColumnHeadline": "Service",
+							"footerlinks": {
+								"jcr:primaryType": "nt:unstructured",
+								"item0": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Service By Lexus",
+									"linktargeturl": "http://www.lexus.com/service",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								},
+								"item1": {
+									"jcr:primaryType": "nt:unstructured",
+									"linktitle": "Lexus Tire Center",
+									"linktargeturl": "http://www.lexustirecenter.com/?utm_source",
+									"thirdpartyicon": "no",
+									"openinnew": "yes"
+								}
+							}
+						}
+					},
+					"footercolumnsTwo": {
+						"jcr:primaryType": "nt:unstructured",
+						"item0": {
+							"jcr:primaryType": "nt:unstructured",
+							"linksUrl": "http://lexus2.custhelp.com/",
+							"openinnew": "yes",
+							"linkstitle": "FAQ"
+						},
+						"item1": {
+							"jcr:primaryType": "nt:unstructured",
+							"linksUrl": "/lexusdrivers/service/dealers",
+							"openinnew": "yes",
+							"linkstitle": "FIND A LEXUS DEALER"
+						},
+						"item2": {
+							"jcr:primaryType": "nt:unstructured",
+							"linksUrl": "http://www.lexus.com/contact",
+							"openinnew": "yes",
+							"linkstitle": "CONTACT US"
+						},
+						"item3": {
+							"jcr:primaryType": "nt:unstructured",
+							"linksUrl": "http://www.lexus.com/accessibility",
+							"openinnew": "yes",
+							"linkstitle": "ACCESSIBILITY"
+						},
+						"item4": {
+							"jcr:primaryType": "nt:unstructured",
+							"linksUrl": "https://www.lexus.com/privacy/online-statement#california-privacy",
+							"openinnew": "yes",
+							"linkstitle": "California Privacy"
+						}
+					}
+				},
+				"config": {
+					"jcr:primaryType": "nt:unstructured",
+					"jcr:createdBy": "admin",
+					"jcr:lastModifiedBy": "admin",
+					"jcr:created": "Fri May 01 2020 00:04:03 GMT+0530",
+					"jcr:lastModified": "Fri May 01 2020 00:04:03 GMT+0530",
+					"sling:resourceType": "lexusdrivers/components/content/config"
+				}
+			},
+			"cq:responsive": {
+				"jcr:primaryType": "nt:unstructured",
+				"breakpoints": {
+					"jcr:primaryType": "nt:unstructured",
+					"phone": {
+						"jcr:primaryType": "nt:unstructured",
+						"title": "Smaller Screen",
+						"width": 768
+					},
+					"tablet": {
+						"jcr:primaryType": "nt:unstructured",
+						"title": "Tablet",
+						"width": 1200
+					}
+				}
+			}
+		}
+	},
+	"policies": {
+		"jcr:primaryType": "cq:Page",
+		"jcr:createdBy": "admin",
+		"jcr:created": "Tue Oct 06 2020 11:13:05 GMT+0530",
+		"jcr:content": {
+			"jcr:primaryType": "nt:unstructured",
+			"jcr:mixinTypes": [
+				"cq:ReplicationStatus",
+				"mix:versionable"
+			],
+			"cq:lastReplicationAction": "Activate",
+			"jcr:versionHistory": "4bf3fad0-75e7-45fb-9be8-3ae5adbecbc4",
+			"cq:lastReplicatedBy": "admin",
+			"jcr:predecessors": [
+				"316452bb-8cdb-4413-ac34-f893bc55590b"
+			],
+			"cq:lastReplicated": "Wed Nov 18 2020 18:52:23 GMT+0530",
+			"cq:lastModified": "Wed Nov 18 2020 18:51:45 GMT+0530",
+			"cq:policy": "lexusdrivers/components/structure/page/policy_content_page",
+			"jcr:baseVersion": "316452bb-8cdb-4413-ac34-f893bc55590b",
+			"jcr:isCheckedOut": true,
+			"jcr:uuid": "304c6d11-d7e7-4575-a3d4-d5a08eed013e",
+			"sling:resourceType": "wcm/core/components/policies/mappings",
+			"cq:lastModifiedBy": "admin",
+			"root": {
+				"jcr:primaryType": "nt:unstructured",
+				"cq:policy": "wcm/foundation/components/responsivegrid/content-default",
+				"sling:resourceType": "wcm/core/components/policies/mapping",
+				"responsivegrid": {
+					"jcr:primaryType": "nt:unstructured",
+					"cq:policy": "wcm/foundation/components/responsivegrid/content-default",
+					"sling:resourceType": "wcm/core/components/policies/mapping",
+					"lexusdrivers": {
+						"jcr:primaryType": "nt:unstructured",
+						"components": {
+							"jcr:primaryType": "nt:unstructured",
+							"form": {
+								"jcr:primaryType": "nt:unstructured",
+								"container": {
+									"jcr:primaryType": "nt:unstructured",
+									"cq:policy": "tmna-commons/components/form/container/form-container",
+									"sling:resourceType": "wcm/core/components/policies/mapping"
+								}
+							},
+							"content": {
+								"jcr:primaryType": "nt:unstructured",
+								"authcontainer": {
+									"jcr:primaryType": "nt:unstructured",
+									"cq:policy": "lexusdrivers/components/content/authcontainer/policy_1602146492097",
+									"sling:resourceType": "wcm/core/components/policies/mapping"
+								}
+							}
+						}
+					},
+					"wcm": {
+						"jcr:primaryType": "nt:unstructured",
+						"foundation": {
+							"jcr:primaryType": "nt:unstructured",
+							"components": {
+								"jcr:primaryType": "nt:unstructured",
+								"responsivegrid": {
+									"jcr:primaryType": "nt:unstructured",
+									"cq:policy": "wcm/foundation/components/responsivegrid/content-default",
+									"sling:resourceType": "wcm/core/components/policies/mapping"
+								}
+							}
+						}
+					}
+				},
+				"ldwrapper": {
+					"jcr:primaryType": "nt:unstructured",
+					"cq:policy": "lexusdrivers/components/structure/LdWrapper/policy_1605270680078",
+					"sling:resourceType": "wcm/core/components/policies/mapping"
+				},
+				"ldwrapper_831556498": {
+					"jcr:primaryType": "nt:unstructured",
+					"cq:policy": "lexusdrivers/components/structure/LdWrapper/policy_1605270680078",
+					"sling:resourceType": "wcm/core/components/policies/mapping"
+				}
+			}
+		}
+	}
+}

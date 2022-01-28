@@ -1,0 +1,19 @@
+{
+	"noVinLabel": "ADD VEHICLE VIN TO MANAGE THIS VEHICLE",
+	"selectvehiclelabel": "Select a Vehicle",
+	"otherVehicleButton": "Vehicle Specifications",
+	"otherprimvehicle": "Set as Primary Vehicle",
+	"noVinButtonLabel": "Add VIN",
+	"managecta": "Manage this Vehicle",
+	"othertitle": "See your Other Vehicle",
+	"title": "Title",
+	"deletevehiclelabel": "Delete this vehicle",
+	":type": "lexusdrivers/components/content/vehiclecard",
+	"vinlabel": "VIN",
+	"otherdescription": "OD",
+	"primVehicle": "Primary Vehicle",
+	"setPrimvehicle": "Set as Primary Vehicle",
+	"defaultImg": "defaultImg",
+	"cardType": "cardType",
+	"manageVehicleCTALink": "manageVehicleCTALink"
+}

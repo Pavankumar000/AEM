@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.toyota.tmna.lexusdrivers.core.search.services.RewardsConfigs">
+  <OCD id="com.toyota.tmna.lexusdrivers.core.search.services.RewardsConfigs" name="Lexus Drivers CloudSearch properties for rewards" description="">
+    <AD id="rewardsSearchEndpointURL" type="String" name="rewards_searchEndpointURL"/>
+    <AD id="rewardsUploadDocEndpointURL" type="String" name="rewards_uploadDocEndpointURL"/>
+  </OCD>
+  <Designate pid="com.toyota.tmna.lexusdrivers.core.search.services.impl.RewardsServiceImpl">
+    <Object ocdref="com.toyota.tmna.lexusdrivers.core.search.services.RewardsConfigs"/>
+  </Designate>
+</metatype:MetaData>

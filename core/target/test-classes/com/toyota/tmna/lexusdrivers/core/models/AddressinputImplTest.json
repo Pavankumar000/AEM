@@ -1,0 +1,12 @@
+{
+	"addressLabel": "Address Label",
+	"addressValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "email rule"
+		}
+	},
+	
+	":type": "lexusdrivers/components/content/addressinput"
+}

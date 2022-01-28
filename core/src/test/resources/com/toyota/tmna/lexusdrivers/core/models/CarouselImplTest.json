@@ -1,0 +1,34 @@
+{
+	"title": "LEXUS SUMMER SERVICE EVENT",
+	"autoScroll": true,
+	"timebetweenslides": 10,
+	"subTitle": "Sub Title",
+	"disclaimer": "Disclaimer",
+	"carouselslides": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"imagealt": "Slide Image Alternate Text",
+			"ctalabel": "Slide CTA Label",
+			"slideSubTitle": "SST",
+			"icon": "Slide Image Icon",
+			"image": "Slide image",
+			"slideDescriptionLayout": "leftAligned",
+			"slideTitle": "ST",
+			"ctalink": "Slide CTA Link",
+			"ctatype": "primary",
+			"iconalt": "Slide Icon Alternate Text"
+		}
+	},
+	"selection": "oneSlide",
+	":type": "lexusdrivers/components/content/carousel",
+	"ctaMultiField": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"ctaLabel": "CTA Label",
+			"ctaLink": "CTA Link",
+			"ctaType": "secondary"
+		}
+	}
+}

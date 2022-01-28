@@ -1,0 +1,24 @@
+{
+				"title": "Carousel",
+				"addVehicleType": "bymodel",
+				"vehicleMaxLimit": "5",
+				"vehicleError": "Max allowable VINs is 3.",
+				"selectYearLabel": "Select a Year",
+				"selectModelLabel": "Select a Vehicle",
+				"addVehicleBtnLabel": "Add Vehicle",
+				"backBtnLabel": "Back",
+				"vehicleDescription": "Vehicle description",
+				"vinPrimaryBtnLabel": "Submit",
+				"vinSecondaryBtnLabel": "Add VIN Later",
+				"vinTitle": "Where is my VIN",
+				"vinDescription": "Vehicle description",
+				"successMsg": "Vehicle added",
+				"successBtnText": "Done",
+				"anotherBtnText": "Add Another Vehicle",
+				"successTitle": "Success",
+				"vehicleModelDesc": "Vehicle description",
+				"vinText": "Enter your 17 character VIN",
+				"duplicateVehicleError": "This vehicle is already in your garage",
+				":type": "lexusdrivers/components/content/addvehicle"
+			
+}

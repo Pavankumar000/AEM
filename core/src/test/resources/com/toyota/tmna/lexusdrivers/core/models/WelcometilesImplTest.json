@@ -1,0 +1,16 @@
+{
+  "displaytitle": "EXPLORE EXCLUSIVE MEMBER BENEFITS, VEHICLE INFORMATION AND MORE",
+  "dataSource": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "jcr:primaryType": "nt:unstructured",
+      "subTitle": "FIND OUT WHEN YOUR VEHICLE IS DUE FOR SERVICE AND TRACK MAINTENANCE",
+      "pageUrl": "https://staging.drivers.lexus.com/lexusdrivers/service",
+      "desktopTileImage": "/content/dam/lexusdrivers/media/Home/Default/Welcome-Tiles/2019/service_tile.jpg",
+      "actionUrl": "https://staging.drivers.lexus.com/lexusdrivers/service",
+      "actionButtonText": "Get Started",
+      "TileImage": "/content/dam/lexusdrivers/media/Home/Default/Welcome-Tiles/2019/service_tile.jpg"
+    }
+  },
+  ":type": "lexusdrivers/components/content/welcometiles"
+}

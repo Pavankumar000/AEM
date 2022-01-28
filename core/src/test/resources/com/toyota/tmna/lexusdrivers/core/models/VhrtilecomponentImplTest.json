@@ -1,0 +1,37 @@
+{
+    "tiletitle": "VEHICLE HEALTH REPORT",
+    "titleicon": "/content/dam/lexusdrivers/media/icons/waning-lights_for_delete/Master Warning.png",
+    "iconerrormsg": "https://staging.drivers.lexus.com/lexusdrivers/-/media/TMNA.LDNG/Project/LexusDrivers/Home/Dashboard/demo/icons/Icon-Esclamation-2X-01.svg?la=en&amp;rev=ec458d82481c4906bebd77da731d7f5d&amp;hash=05C3FE5E57FA5FF22E1478C25F68137F",
+    "errorctalabel": "CTA Label for Error Message",
+    "erromsg": "Errorr mEssage",
+    "errorctalink": "Error CTA Link",
+    "tilesList": {
+      "jcr:primaryType": "nt:unstructured",
+      "item0": {
+        "jcr:primaryType": "nt:unstructured",
+        "ctaLabel": "FULL HEALTH REPORT",
+        "icon": "https://staging.drivers.lexus.com/lexusdrivers/-/jssmedia/TMNA.LDNG/Project/LexusDrivers/Home/Dashboard/VHR/CTh/2017/cth-my17-eminent-white-pearl.jpg?h=244&amp%3Bla=en&amp%3Bw=560&amp%3Brev=0e0efe66c3e7464489e4fff3e41d577d&amp%3Bhash=9E16A66F79A7CE809E700BC337A9C967",
+        "title": "MILEAGE",
+        "ctaLink": "https://drivers.lexus.com/lexusdrivers/VehicleHealthReportLandingPage",
+        "ctatype": "Primary Button"
+      },
+      "item1": {
+        "jcr:primaryType": "nt:unstructured",
+        "description": "Your Next Scheduled Service Due Is {miles} or {months}.",
+        "ctaLabel": "service history",
+        "icon": "https://staging.drivers.lexus.com/lexusdrivers/-/jssmedia/TMNA.LDNG/Project/LexusDrivers/Home/Dashboard/misc/LexusDrivers-LoggedInHP-Dashboard-VehicleHealthReport-NextService-LEX-CSP-CY19-0021-276x120_M85.jpg?h=120&amp%3Bla=en&amp%3Bw=276&amp%3Brev=e8e3bc91ea0746d1a79823a5b3d996cf&amp%3Bhash=8974A9D3B86FAA6D8DFD8B982213F4C7",
+        "text": "Odometer",
+        "title": "next service",
+        "ctaLink": "https://drivers.lexus.com/lexusdrivers/history",
+        "ctatype": "Primary Button"
+      },
+      "item2": {
+        "jcr:primaryType": "nt:unstructured",
+        "ctaLabel": "FULL HEALTH REPORT",
+        "title": "fuel level",
+        "ctaLink": "https://drivers.lexus.com/lexusdrivers/VehicleHealthReportLandingPage",
+        "ctatype": "Primary Button"
+      }
+    },
+    ":type": "lexusdrivers/components/content/vhrtilecomponent"
+  }

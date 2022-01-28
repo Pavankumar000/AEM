@@ -1,0 +1,20 @@
+{
+  "jcr:primaryType": "nt:unstructured",
+  "methodType": {
+    "jcr:primaryType": "nt:unstructured",
+    "get": {
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "post": {
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "business-name-validation-rule": {
+      "jcr:primaryType": "nt:unstructured",
+      "msg": "Please enter valid Business Name",
+      "text": "Business name validation rule"
+    }
+  },
+  "fieldValidation": {
+    "jcr:primaryType": "nt:unstructured"
+  }
+}

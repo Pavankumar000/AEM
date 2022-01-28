@@ -1,0 +1,13 @@
+{
+  "title": "title",
+  "placeholderText": "placeholderText",
+  "selectAllLabel": "selectAllLabel",
+  "optionsList": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "jcr:primaryType": "nt:unstructured",
+      "optionText": "optionText",
+      "optionValue": "optionValue"
+    }
+  }
+}

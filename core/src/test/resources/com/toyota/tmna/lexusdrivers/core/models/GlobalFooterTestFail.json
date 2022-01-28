@@ -1,0 +1,18 @@
+{
+    "messagecheckbox": "true",
+    "headlinePath": "https://privacy.toyota.com/",
+    "headline": "DO NOT SELL MY PERSONAL INFORMATION",
+    "copyopennewwindow": "true",
+    "headPathOpennewwindow":"true",
+    "copyRightDesc": "<p>© 2006-2019 Lexus, a Division of Toyota Motor Sales, U.S.A., Inc. All information contained herein applies to U.S. vehicles only.</p>",
+    "copyRightLink": "http://www.toyota.com/recall",
+    "copyRightText": "Safety Recalls & Service Campaigns",
+    "sling:resourceType": "lexusdrivers/components/content/globalfooter",
+    "textIsRich": "true",
+    "footercolumns": {
+      "jcr:primaryType": "nt:unstructured"
+    },
+    "footercolumnsTwo": {
+      "jcr:primaryType": "nt:unstructured"
+    }
+}

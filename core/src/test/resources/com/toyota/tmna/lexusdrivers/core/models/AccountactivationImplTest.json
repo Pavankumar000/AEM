@@ -1,0 +1,5 @@
+{
+  "errorPageUrl": "error url",
+  "successPageUrl": "success url",
+  ":type": "lexusdrivers/components/content/accountactivation"
+}

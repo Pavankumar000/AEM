@@ -1,0 +1,24 @@
+{
+  "sitenotifications": {
+    "jcr:primaryType": "nt:unstructured",
+    "item0": {
+      "jcr:primaryType": "nt:unstructured",
+      "closeImage": "Close Image",
+      "notificationImage": "Notification Image",
+      "closeImageAlt": "Close Image Alt",
+      "message": "Add notification messages.",
+      "notificationImageAlt": "Notification Image Alt",
+      "notificationType": "GENERAL"
+    },
+    "item1": {
+      "jcr:primaryType": "nt:unstructured",
+      "closeImage": "ddsds",
+      "notificationImage": "Notification Imag2",
+      "closeImageAlt": "Close Image Alt",
+      "message": "Add notification messages.",
+      "notificationImageAlt": "Notification Image Alt",
+      "notificationType": "BACKEND_SERVICE_DOWN"
+    }
+  },
+  ":type": "lexusdrivers/components/content/sitenotification"
+}

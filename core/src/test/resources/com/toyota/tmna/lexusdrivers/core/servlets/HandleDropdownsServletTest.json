@@ -1,0 +1,19 @@
+{
+	"jcr:primaryType": "nt:unstructured",
+	"validationRules": {
+		"jcr:primaryType": "nt:unstructured",
+		"datasource": {
+			"jcr:primaryType": "nt:unstructured",
+			"dropdownListName": "fieldValidation",
+			"sling:resourceType": "/bin/dropdownds"
+		}
+	},
+	"validationRulesone": {
+		"jcr:primaryType": "nt:unstructured",
+		"datasource": {
+			"jcr:primaryType": "nt:unstructured",
+			"dropdownListName": "methodType",
+			"sling:resourceType": "/bin/dropdownds"
+		}
+	}
+}

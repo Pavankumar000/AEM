@@ -1,0 +1,13 @@
+{
+	"additionalYearsLabel":"additionalYearsLabel",
+	"dealerLabel":"dealerLabel",
+	"msrpUnitValue":"msrpUnitValue",
+	"msrpLabel":"msrpLabel",
+	"yearlyUnitValue":"yearlyUnitValue",
+	"yearlyLabel":"yearlyLabel",
+	"monthlyUnitValue":"monthlyUnitValue",
+	"monthlyLabel":"monthlyLabel",
+	"priceType":"priceType",
+	"cardTitle":"cardTitle",
+	"cardDescription":"cardDescription"
+}

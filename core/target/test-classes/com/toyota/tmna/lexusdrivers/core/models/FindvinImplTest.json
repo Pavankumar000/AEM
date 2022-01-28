@@ -1,0 +1,11 @@
+{
+	"buttonLabel": "OK",
+	"description": "des",
+	"altText": "findvin",
+	"image": "fimage",
+	"title": "Title",
+	"showSeperator": "true",
+	":type": "lexusdrivers/components/content/findvin",
+	"componentType": "Modal",
+	"imagePosition": "Below Desc"
+}

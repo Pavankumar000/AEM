@@ -1,0 +1,18 @@
+{
+	"title": "title",
+	"autoplay": "autoplay",
+	"tiles": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"altTextMobileImage": "AltText for Mobile",
+			"mobileImage": "MI",
+			"altTextDesktopImage": "AltText for Desktop",
+			"desktopImage": "DI",
+			"videoSource": "VS",
+			"altTextTabletImage": "AltText for Tab",
+			"tabletImage": "TI"
+		}
+	},
+	":type": "lexusdrivers/components/content/quicklinks"
+}

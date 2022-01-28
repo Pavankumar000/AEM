@@ -1,0 +1,20 @@
+{
+    "tiletitle": "Indicator Lights",
+    "iconerrormsg": "https://staging.drivers.lexus.com/lexusdrivers/-/media/TMNA.LDNG/Project/LexusDrivers/Home/Dashboard/demo/icons/Icon-Esclamation-2X-01.svg?la=en&amp;rev=ec458d82481c4906bebd77da731d7f5d&amp;hash=05C3FE5E57FA5FF22E1478C25F68137F",
+    "errorctalabel": "CTA Label for Error Message",
+    "erromsg": "Errorr mEssage",
+    "errorctalink": "Error CTA Link",
+    "tilesList": {
+        "jcr:primaryType": "nt:unstructured",
+        "item0": {
+            "jcr:primaryType": "nt:unstructured",
+            "ctaLabel": "Learn more",
+            "icon": "https://drivers.lexus.com/lexusdrivers/-/jssmedia/TMNA.LDNG/Project/LexusDrivers/Home/Dashboard/demo/icons/Icon-Pin-2X-01.svg?la=en&amp%3Brev=01bf3535cf244db38810af5f3459760e&amp%3Bhash=7246D520C2D89F82DE9F7E0964BAF586",
+            "title": "Indicator Lights",
+            "ctaLink": "lexusdrivers/warning-lights",
+            "ctatype": "Primary Button"
+        }
+    },
+    ":type": "lexusdrivers/components/content/indicatorlightstile",
+    "titleicon": "titleicon"
+}

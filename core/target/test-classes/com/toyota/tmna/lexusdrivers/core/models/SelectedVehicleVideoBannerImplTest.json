@@ -1,0 +1,23 @@
+{
+	"viewSpecLink": "viewSpecLink",
+	"altText": "Alt Text for Image",
+	"defaultImage": "Default Image",
+	"fuelTypeLabel": "Fuel Type",
+	"nickName": "Nick Name",
+	"nickNameIcon": "Nick Name Icon",
+	"vinLabel": "VIN",
+	"viewSpecText": "View Specifications Text",
+	"capacityTypeLabel": "Capacity",
+	"addvinLabel":"addvinLabel",
+	":type": "lexusdrivers/components/content/selectedvehiclevideobanner",
+	"defaultDesktopImage": "defaultDesktopImage",
+	"altDesktop": "altDesktop",
+	"defaultTabletImage": "defaultTabletImage",
+	"altTablet": "altTablet",
+	"defaultMobileImage": "defaultMobileImage",
+	"altMobile": "altMobile",
+	"defaultVideoSource": "defaultVideoSource",
+	"defaultImageSource": "defaultImageSource",
+	"legalCopy": "legalCopy",
+	"altDefaultImage": "altDefaultImage"
+}

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.toyota.tmna.lexusdrivers.core.search.services.WaldoConfigs">
+  <OCD id="com.toyota.tmna.lexusdrivers.core.search.services.WaldoConfigs" name="Lexus Drivers Waldo properties" description="">
+    <AD id="WaldoReferer" type="String" name="waldoReferer" default="https://stg-ld.cdn.cepo-proxy.tms.aws.lexus.com/lexusdrivers"/>
+    <AD id="WaldoKey" type="String" name="waldoKey"/>
+    <AD id="WaldoZipEndPoint" type="String" name="waldoZipEndPoint" default="https://api.staging.waldo.toyota.com/zip/latlng"/>
+    <AD id="WaldoLatLangEndPoint" type="String" name="waldoLatLangEndPoint" default="https://api.staging.waldo.toyota.com/latlng/zip"/>
+    <AD id="WaldoZipCityStateEndPoint" type="String" name="waldoZipCityStateEndPoint" default="https://api.staging.waldo.toyota.com/zip/citystate"/>
+  </OCD>
+  <Designate pid="com.toyota.tmna.lexusdrivers.core.search.services.impl.WaldoServiceImpl">
+    <Object ocdref="com.toyota.tmna.lexusdrivers.core.search.services.WaldoConfigs"/>
+  </Designate>
+</metatype:MetaData>

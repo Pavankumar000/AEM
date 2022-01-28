@@ -1,0 +1,10 @@
+{
+    "startLevel" :"1",
+    "headerRibbon" :"Home",
+    "headerRibbonLink" :"#",
+    "menuLabel" :"Menu",
+    "hideCurrent" : true,
+    "showHiddenItems" : false,
+    "showSubCategories": true,
+     ":type": "lexusdrivers/components/content/breadcrumb"
+}

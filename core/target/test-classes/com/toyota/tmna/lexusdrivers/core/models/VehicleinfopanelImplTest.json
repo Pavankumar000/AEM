@@ -1,0 +1,16 @@
+{
+  "jellytitle": "jellytitle",
+  "defaultJelly": "defaultJelly",
+  "defaultTitle": "defaultTitle",
+  "defaultDescription": "defaultDescription",
+  "vehicleLabel": "vehicleLabel",
+  "VINLabel": "VINLabel",
+  "hasCapabilityTitle": "hasCapabilityTitle",
+  "hasCapabilityDesc": "hasCapabilityDesc",
+  "noCapabilityTitle": "noCapabilityTitle",
+  "noCapabilityDesc": "noCapabilityDesc",
+  "buttontext": "buttontext",
+  "buttonlink": "buttonlink",
+  "MEIDLabel": "MEIDLabel",
+  "IMEILabel": "IMEILabel"
+}

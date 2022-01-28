@@ -1,0 +1,11 @@
+ {
+   "displaymessage": {
+    "diplaytitle": "Success",
+     "displaydescription": "We sent password reset instructions to",
+     "displayprimaryButtonLink": "/lexusdrivers/account/login.login.html",
+     "displaysupportContent": "RESEND PASSWORD RESET EMAIL",
+     "displayverticalCenterAlign": "true",
+     "displayprimaryButtonText":"ok",
+     ":type": "lexusdrivers/components/content/displayMessage"
+   }
+}

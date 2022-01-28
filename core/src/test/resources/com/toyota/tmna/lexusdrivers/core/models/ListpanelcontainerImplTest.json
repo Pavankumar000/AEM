@@ -1,0 +1,11 @@
+{
+  "title": "title",
+  "icon": "icon",
+  "iconList": "iconList",
+  "type": "type",
+  "manualtype": "manualtype",
+  "noServiceDataMessage": "noServiceDataMessage",
+  "noVehicleSelectedMessage": "noVehicleSelectedMessage",
+  "nextgenIconText": "nextgenIconText",
+  ":type": "lexusdrivers/components/content/listpanelcontainer"
+}

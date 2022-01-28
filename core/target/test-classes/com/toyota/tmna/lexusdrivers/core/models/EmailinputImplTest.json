@@ -1,0 +1,12 @@
+{
+	"emailLabel": "emailLabel",
+	"emailUsedErrorMessage":"email error message",	
+	"emailValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "rule"
+		}
+	},
+	":type": "lexusdrivers/components/content/emailinput"
+}

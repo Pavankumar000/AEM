@@ -1,0 +1,17 @@
+{
+	"componenttype": "States",
+	"multilist": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"name": "Nevada",
+			"value": "NV"
+		},
+		"item1": {
+			"jcr:primaryType": "nt:unstructured",
+			"name": "New York",
+			"value": "NY"
+		}
+	},
+	":type": "lexusdrivers/components/content/tiles"
+}

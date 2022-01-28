@@ -1,0 +1,11 @@
+{
+	"manualtype": "omnav",
+	"iconList": "listicon",
+	"nextgenIconText": "PDF",
+	"noVehicleSelectedMessage": "novehicle",
+	"icon": "headingicon",
+	"type": "nextgen",
+	"title": "Owner Manual",
+	":type": "lexusdrivers/components/content/listpanel",
+	"noServiceDataMessage": "noservice"
+}

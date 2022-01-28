@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.toyota.tmna.lexusdrivers.core.factory.HeaderFactoryEndPoints" immediate="true" activate="activate" configuration-pid="com.toyota.tmna.lexusdrivers.core.factory.HeaderFactoryEndPoints">
+  <service>
+    <provide interface="com.toyota.tmna.lexusdrivers.core.factory.IFactory"/>
+  </service>
+  <reference name="cryptoSupport" interface="com.adobe.granite.crypto.CryptoSupport" field="cryptoSupport"/>
+  <implementation class="com.toyota.tmna.lexusdrivers.core.factory.HeaderFactoryEndPoints"/>
+</scr:component>

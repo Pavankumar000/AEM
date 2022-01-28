@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.toyota.tmna.lexusdrivers.core.workflows.PublishToSearchActivationProcess" immediate="true">
+  <property name="process.label" type="String" value="Publish To Search Activation Process"/>
+  <service>
+    <provide interface="com.adobe.granite.workflow.exec.WorkflowProcess"/>
+  </service>
+  <reference name="disclaimerService" interface="com.toyota.tmna.lexusdrivers.core.search.services.DisclaimerService" field="disclaimerService"/>
+  <reference name="rewardsService" interface="com.toyota.tmna.lexusdrivers.core.search.services.RewardsService" field="rewardsService"/>
+  <reference name="storiesService" interface="com.toyota.tmna.lexusdrivers.core.search.services.StoriesService" field="storiesService"/>
+  <reference name="videosService" interface="com.toyota.tmna.lexusdrivers.core.search.services.VideosService" field="videosService"/>
+  <reference name="waldoService" interface="com.toyota.tmna.lexusdrivers.core.search.services.WaldoService" field="waldoService"/>
+  <implementation class="com.toyota.tmna.lexusdrivers.core.workflows.PublishToSearchActivationProcess"/>
+</scr:component>

@@ -1,0 +1,9 @@
+{
+  "displayTitle": "SUCCESS",
+  "displayDescription": "description",
+  "displayPrimaryButtonLink": "/content/lexusdrivers/us/en/home",
+  "displayPrimaryButtonText": "OK",
+  "displaySupportContent": "Support Content",
+  "displayVerticalCenterAlign": true,
+  ":type": "lexusdrivers/components/content/displaymessagewrapper"
+}

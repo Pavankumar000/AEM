@@ -1,0 +1,69 @@
+{
+	"accountTypeBusinessLabel": "accountTypeBusinessLabel",
+	"accountTypeIndividualLabel": "accountTypeIndividualLabel",
+	"accountTypeLabel": "accountTypeLabel",
+	"description": "description",
+	"emailField": "emailField",
+	"businessNameLabel": "businessNameLabel",
+	"businessNameLengthPattern": "businessNameLengthPattern",
+	"businessNameLengthMessage": "businessNameLengthMessage",
+	"businessNameRequiredMessage": "businessNameRequiredMessage",
+	"firstNameLabel": "firstNameLabel",
+	"firstNameLengthPattern": "firstNameLengthPattern",
+	"firstNameLengthMessage": "firstNameLengthMessage",
+	"firstNameRequiredMessage": "firstNameRequiredMessage",
+	"lastNameLabel": "lastNameLabel",
+	"lastNameLengthPattern": "lastNameLengthPattern",
+	"lastNameLengthMessage": "lastNameLengthMessage",
+	"lastNameRequiredMessage": "lastNameRequiredMessage",
+	"confirmPasswordLabel": "confirmPasswordLabel",
+	"confirmPasswordRequiredMessage": "confirmPasswordRequiredMessage",
+	"confirmPasswordValidation": "confirmPasswordValidation",
+	"passwordLabel": "passwordLabel",
+	"passwordRequiredMessage": "passwordRequiredMessage",
+	"hideLabel": "hideLabel",
+	"showLabel": "showLabel",
+	"agreementText": "agreementText",
+	"title": "title",
+	"forgotPasswordText": "forgotPasswordText",
+	"submitButtonLabel": "submitButtonLabel",
+	"successPageUrl": "successPageUrl",
+	"phoneNumberLabel": "phoneNumberLabel",
+	"firstNameValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "^[^S][a-zA-Z '.-]*$"
+		}
+	},
+	"lastNameValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "pattern.{1,30}"
+		}
+	},
+	"businessNameValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "pattern.{2,64}"
+		}
+	},
+	"emailValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": "email validation rule"
+		}
+	},
+	"passwordValidations": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"rules": ".{8,16}"
+		}
+	},
+	":type": "lexusdrivers/components/content/userform",
+	"phoneNumberValidations": "phoneNumberValidations"
+}

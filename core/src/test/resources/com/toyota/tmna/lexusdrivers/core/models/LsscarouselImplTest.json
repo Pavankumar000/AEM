@@ -1,0 +1,49 @@
+{
+	"subtitle":"Sub Title",
+	"description":"Description",
+	"video_title":"Video Title",
+	"modalcta":"Modal Cta",
+	"vehicleEquipped":"Vehicle Equipped Heading",
+	"novehicleEquippedImg":"No Vehicle Equipped Image",
+	"title":"Title",
+	"noLssMsg":"No LSS Message",
+	"defaultMsg":"Default Message",
+	"vehicleEquippedImg":"Vehicle Equipped Image",
+	"heading":"Heading",
+	"hidevideo":"Hide Video",
+	"garageMsg":"Garage Message",
+	"id":"Video Source",
+	"video_type":"video",
+	"novehicleEquipped":"No Vehicle Equipped Heading",
+	"carouselslides": {
+		"jcr:primaryType":"nt:unstructured",
+		"modelYear":"Model Year List ",
+		"mobileImage":"Slide Mobile Image",
+		"imagealt":"Slide Image Alternate Text",
+		"slideSubTitle":"Slide Sub Title",
+		"slideDescription":"<p>Slide Description</p> ",
+		"desktopImage":"Slide Desktop Image",
+		"slideTitle":"Slide Title",
+		"tabletImage":"Slide Tablet Image",
+		"default":"default"
+	},
+	"bannerList": {
+	"jcr:primaryType":"nt:unstructured",
+	"modelYear":"2021",
+	"title":"title",
+	"heading":"heading",
+	"default":"default"
+	},
+	"descList": {
+		"jcr:primaryType":"nt:unstructured",
+		"modelYear":"2021",
+		"content":"content"
+	},
+	"ctaList": {
+		"jcr:primaryType": "nt:unstructured",
+		"modelYear": "2021",
+		"title": "title",
+		"buttonLink": "/content/lexusdrivers/us/en/configuration",
+		"default": "default"
+	}
+}

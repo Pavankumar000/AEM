@@ -1,0 +1,25 @@
+{
+	"titleicon": "/content/dam/lexusdrivers/media/icons/waning-lights_for_delete/Master Warning.png",
+	"errorctalabel": "CTA Label for Error Message",
+	"erromsg": "Errorr mEssage",
+	"iconerrormsg": "asIcon for Error Message",
+	"tiletitle": "Tile Title",
+	"errorctalink": "Error CTA Link",
+	"tilesList": {
+		"jcr:primaryType": "nt:unstructured",
+		"item0": {
+			"jcr:primaryType": "nt:unstructured",
+			"description": "desc",
+			"ctaLabel": "CTA LABEL",
+			"icon": "Icon-image",
+			"title": "Title",
+			"video": "video",
+			"ctaLink": "CTA LINK",
+			"ctatype": "Anchor Link"
+		}
+	},
+	":type": "lexusdrivers/components/content/tiles",
+	"type": "type",
+	"smallTileMessage": "smallTileMessage",
+	"mediumTileMessage": "mediumTileMessage"
+}
