@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workspaceFilter version="1.0">
+    <filter root="/apps/aemgeeks-packages"/>
+    <filter root="/apps/aemgeeks-vendor-packages"/>
+    <filter root="/apps/aemgeeks-packages/application/install/classes"/>
+    <filter root="/apps/aemgeeks-packages/content/install/classes"/>
+    <filter root="/etc/packages/adobe/consulting/acs-aem-commons-content-4.7.2.zip"/>
+    <filter root="/etc/packages/adobe/cq60/core.wcm.components.all-2.9.0.zip"/>
+</workspaceFilter>

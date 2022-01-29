@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.geeks.core.listeners.OSGiEventHandler" immediate="true">
+  <property name="event.topics" type="String">org/apache/sling/api/resource/Resource/ADDED
+org/apache/sling/api/resource/Resource/CHANGED
+org/apache/sling/api/resource/Resource/REMOVED</property>
+  <property name="event.filter" type="String" value="(path=/content/aemgeeks/us/en/author/*)"/>
+  <service>
+    <provide interface="org.osgi.service.event.EventHandler"/>
+  </service>
+  <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resourceResolverFactory"/>
+  <implementation class="com.aem.geeks.core.listeners.OSGiEventHandler"/>
+</scr:component>

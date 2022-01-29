@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Implementation-Title: AEM GEEKS - UI content
+Content-Package-Roots: /conf/aemgeeks,/content/aemgeeks,/content/dam/a
+ emgeeks,/content/experience-fragments/aemgeeks
+Implementation-Version: 1.0-SNAPSHOT
+Built-By: Pavan ssb
+Implementation-Vendor-Id: com.aem.geeks
+Content-Package-Dependencies: com.aem.geeks:aemgeeks.ui.apps:1.0-SNAPS
+ HOT
+Content-Package-Type: content
+Created-By: Apache Maven
+Build-Jdk: 1.8.0_261
+Content-Package-Description: UI content package for AEM GEEKS
+Content-Package-Id: com.aem.geeks:aemgeeks.ui.content:1.0-SNAPSHOT
+

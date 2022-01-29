@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM GEEKS - All</comment>
+<entry key="allowIndexDefinitions">true</entry>
+<entry key="createdBy">Pavan ssb</entry>
+<entry key="created">2022-01-28T13:31:56.213+05:30</entry>
+<entry key="groupId">com.aem.geeks</entry>
+<entry key="name">aemgeeks.all</entry>
+<entry key="description">All content package for AEM GEEKS</entry>
+<entry key="artifactId">aemgeeks.all</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">mixed</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="group">com.aem.geeks</entry>
+</properties>

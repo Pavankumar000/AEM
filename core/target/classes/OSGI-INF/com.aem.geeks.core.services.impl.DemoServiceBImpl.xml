@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.geeks.core.services.impl.DemoServiceBImpl" immediate="true">
+  <service>
+    <provide interface="com.aem.geeks.core.services.DemoServiceB"/>
+  </service>
+  <reference name="demoService" interface="com.aem.geeks.core.services.DemoService" field="demoService"/>
+  <reference name="multiService" interface="com.aem.geeks.core.services.MultiService" target="(component.name=com.aem.geeks.core.services.impl.MultiServiceBImpl)" field="multiService"/>
+  <implementation class="com.aem.geeks.core.services.impl.DemoServiceBImpl"/>
+</scr:component>

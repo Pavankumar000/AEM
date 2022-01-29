@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.geeks.core.services.ComponentsInfo" configuration-policy="optional" immediate="true" activate="activate" modified="activate" configuration-pid="com.aem.geeks.core.services.impl.ComponentsInfoImpl">
+  <property name="defaultMaxItems" type="Integer" value="4"/>
+  <property name="defaultPerPage" type="Integer" value="10"/>
+  <property name="service.vendor" type="String" value="AEM GEEKS"/>
+  <property name="service.description" type="String" value="AEM GEEKS Training"/>
+  <service>
+    <provide interface="com.aem.geeks.core.services.ComponentsInfoService"/>
+  </service>
+  <reference name="builder" interface="com.day.cq.search.QueryBuilder" field="builder"/>
+  <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resourceResolverFactory"/>
+  <implementation class="com.aem.geeks.core.services.impl.ComponentsInfoServiceImpl"/>
+</scr:component>

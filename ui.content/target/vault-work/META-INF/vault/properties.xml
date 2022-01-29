@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE properties SYSTEM "http://java.sun.com/dtd/properties.dtd">
+<properties>
+<comment>AEM GEEKS - UI content</comment>
+<entry key="createdBy">Pavan ssb</entry>
+<entry key="allowIndexDefinitions">false</entry>
+<entry key="name">aemgeeks.ui.content</entry>
+<entry key="acHandling">merge</entry>
+<entry key="created">2021-12-27T10:50:13.033+05:30</entry>
+<entry key="groupId">com.aem.geeks</entry>
+<entry key="version">1.0-SNAPSHOT</entry>
+<entry key="packageType">content</entry>
+<entry key="requiresRoot">false</entry>
+<entry key="dependencies">com.aem.geeks:aemgeeks.ui.apps:1.0-SNAPSHOT</entry>
+<entry key="cloudManagerTarget">none</entry>
+<entry key="group">com.aem.geeks</entry>
+<entry key="description">UI content package for AEM GEEKS</entry>
+<entry key="artifactId">aemgeeks.ui.content</entry>
+</properties>
