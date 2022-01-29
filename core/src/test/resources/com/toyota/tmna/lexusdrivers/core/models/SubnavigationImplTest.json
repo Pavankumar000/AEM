@@ -1,9 +1,0 @@
-{
-  "moduleName": "moduleName",
-  "showActiveTab": true,
-  "nextIcon":"nextIcon",
-  "prevIcon":"prevIcon",
-  "moreLabel":"moreLabel",
-  "subNavType":"subNavType",
-  "isStickyNav":"isStickyNav"
-}

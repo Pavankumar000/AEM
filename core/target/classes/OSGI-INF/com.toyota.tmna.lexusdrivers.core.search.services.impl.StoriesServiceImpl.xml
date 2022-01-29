@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.toyota.tmna.lexusdrivers.core.search.services.impl.StoriesServiceImpl" immediate="true" activate="activate">
-  <service>
-    <provide interface="com.toyota.tmna.lexusdrivers.core.search.services.StoriesService"/>
-  </service>
-  <reference name="storiesDao" interface="com.toyota.tmna.lexusdrivers.core.search.dao.StoriesDao" field="storiesDao"/>
-  <implementation class="com.toyota.tmna.lexusdrivers.core.search.services.impl.StoriesServiceImpl"/>
-</scr:component>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.toyota.tmna.lexusdrivers.core.services.impl.AuthServiceImpl" immediate="true" activate="activate">
-  <service>
-    <provide interface="com.toyota.tmna.lexusdrivers.core.services.AuthService"/>
-  </service>
-  <implementation class="com.toyota.tmna.lexusdrivers.core.services.impl.AuthServiceImpl"/>
-</scr:component>

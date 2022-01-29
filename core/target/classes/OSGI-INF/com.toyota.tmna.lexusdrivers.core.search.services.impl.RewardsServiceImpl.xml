@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.toyota.tmna.lexusdrivers.core.search.services.impl.RewardsServiceImpl" immediate="true" activate="activate">
-  <service>
-    <provide interface="com.toyota.tmna.lexusdrivers.core.search.services.RewardsService"/>
-  </service>
-  <reference name="rewardsDao" interface="com.toyota.tmna.lexusdrivers.core.search.dao.RewardsDao" field="rewardsDao"/>
-  <reference name="waldoService" interface="com.toyota.tmna.lexusdrivers.core.search.services.WaldoService" field="waldoService"/>
-  <implementation class="com.toyota.tmna.lexusdrivers.core.search.services.impl.RewardsServiceImpl"/>
-</scr:component>
