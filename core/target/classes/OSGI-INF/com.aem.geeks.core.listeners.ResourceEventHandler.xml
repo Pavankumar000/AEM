@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.geeks.core.listeners.ResourceEventHandler" immediate="true">
+  <property name="resource.paths" type="String" value="/content/aemgeeks/us/en/card"/>
+  <property name="resource.change.types" type="String">ADDED
+REMOVED
+CHANGED</property>
+  <service>
+    <provide interface="org.apache.sling.api.resource.observation.ResourceChangeListener"/>
+  </service>
+  <reference name="resourceResolverFactory" interface="org.apache.sling.api.resource.ResourceResolverFactory" field="resourceResolverFactory"/>
+  <implementation class="com.aem.geeks.core.listeners.ResourceEventHandler"/>
+</scr:component>

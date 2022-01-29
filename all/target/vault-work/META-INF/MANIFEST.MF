@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Created-By: Apache Maven
+Built-By: Pavan ssb
+Build-Jdk: 17.0.1
+Implementation-Title: AEM GEEKS - All
+Implementation-Version: 1.0-SNAPSHOT
+Implementation-Vendor-Id: com.aem.geeks
+Content-Package-Roots: /apps/aemgeeks-packages,/apps/aemgeeks-packages/a
+ pplication/install/classes,/apps/aemgeeks-packages/content/install/clas
+ ses,/apps/aemgeeks-vendor-packages,/etc/packages/adobe/consulting/acs-a
+ em-commons-content-4.7.2.zip,/etc/packages/adobe/cq60/core.wcm.componen
+ ts.all-2.9.0.zip
+Content-Package-Description: All content package for AEM GEEKS
+Content-Package-Id: com.aem.geeks:aemgeeks.all:1.0-SNAPSHOT
+Content-Package-Type: mixed
+

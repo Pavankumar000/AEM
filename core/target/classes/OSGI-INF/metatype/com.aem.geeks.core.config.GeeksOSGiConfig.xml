@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.geeks.core.config.GeeksOSGiConfig">
+  <OCD id="com.aem.geeks.core.config.GeeksOSGiConfig" name="AEM Geeks - Modular OSGi Configuration" description="Modular OSGi Configuration demo.">
+    <AD id="serviceID" type="Integer" name="Service ID" description="Enter service id."/>
+    <AD id="serviceName" type="String" name="Service Name" description="Enter service name." default="AEM\ Geeks\ Service"/>
+    <AD id="serviceURL" type="String" name="Service URL" description="Add Service URL." default="localhost"/>
+  </OCD>
+  <Designate pid="com.aem.geeks.core.services.impl.OSGiConfigModuleImpl">
+    <Object ocdref="com.aem.geeks.core.config.GeeksOSGiConfig"/>
+  </Designate>
+</metatype:MetaData>

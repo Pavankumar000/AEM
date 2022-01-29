@@ -1,0 +1,4 @@
+com\aem\geeks\core\listeners\SimpleResourceListenerTest.class
+com\aem\geeks\core\models\impl\AuthorImplTest.class
+com\aem\geeks\core\filters\LoggingFilterTest.class
+com\aem\geeks\core\models\HelloWorldModelTest.class

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metatype:MetaData xmlns:metatype="http://www.osgi.org/xmlns/metatype/v1.2.0" localization="OSGI-INF/l10n/com.aem.geeks.core.config.SchedulerConfiguration">
+  <OCD id="com.aem.geeks.core.config.SchedulerConfiguration" name="AEM Geeks - Scheduler Configuration" description="Sling scheduler configuration">
+    <AD id="schedulerName" type="String" name="Scheduler name" description="Name of the scheduler" default="Custom\ Sling\ Scheduler\ Configuration"/>
+    <AD id="cronExpression" type="String" name="Cron Expression" description="Cron expression used by the scheduler" default="0/20\ *\ *\ *\ *\ ?"/>
+  </OCD>
+  <Designate pid="com.aem.geeks.core.schedulers.GeeksScheduler">
+    <Object ocdref="com.aem.geeks.core.config.SchedulerConfiguration"/>
+  </Designate>
+  <Designate pid="com.aem.geeks.core.schedulers.GeeksSchedulerJobs">
+    <Object ocdref="com.aem.geeks.core.config.SchedulerConfiguration"/>
+  </Designate>
+</metatype:MetaData>

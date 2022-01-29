@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<scr:component xmlns:scr="http://www.osgi.org/xmlns/scr/v1.3.0" name="com.aem.geeks.core.listeners.GeeksJobCreater" immediate="true">
+  <property name="event.topics" type="String" value="org/apache/sling/api/resource/Resource/ADDED"/>
+  <property name="event.filter" type="String" value="(path=/content/aemgeeks/us/en/hero/*)"/>
+  <service>
+    <provide interface="org.osgi.service.event.EventHandler"/>
+  </service>
+  <reference name="jobManager" interface="org.apache.sling.event.jobs.JobManager" field="jobManager"/>
+  <implementation class="com.aem.geeks.core.listeners.GeeksJobCreater"/>
+</scr:component>
